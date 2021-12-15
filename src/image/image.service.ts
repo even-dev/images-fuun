@@ -2,7 +2,6 @@ import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Image } from './image.entity';
 import { Repository } from 'typeorm';
-import { GeneralIdPayload } from '../general/general.id.payload';
 import { AddImagePayload } from './payload/add.image.payload';
 import { UpdateImagePayload } from './payload/update.image.payload';
 
