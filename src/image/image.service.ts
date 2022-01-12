@@ -42,4 +42,8 @@ export class ImageService {
       await this.imageRepository.delete(existImage);
     }
   }
+
+  capitalize(text: string): string {
+    return text.toUpperCase();
+  }
 }
